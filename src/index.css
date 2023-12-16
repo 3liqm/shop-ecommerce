@@ -4,7 +4,7 @@
 }
 [data-theme="dark"] {
   --body_background: #19192b ;
-  --color-white-black: rgb(212, 212, 212);
+  --color-white-black: rgb(170, 170, 170);
   --gray: #a8a8a8;
   --link-hr_color: rgb(255, 255, 255);
   --new-price_color: white;
@@ -13,7 +13,7 @@
 }
 [data-theme="light"] {
   --body_background: white;
-  --color-white-black: #575757;
+  --color-white-black: #858585;
   --link-hr_color: #4b4b4b;
   --gray: #626262;
   --new-price_colo: black;
@@ -24,3 +24,4 @@ body {
   background-color: var(--body_background);
   color: var(--body_color);
 }
+
