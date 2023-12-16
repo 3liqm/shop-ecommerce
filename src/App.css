@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.5s ease-in-out;
+}
+
+.root {
+  font-family: "poppins";
+  background-color: var(--body_background);
+}

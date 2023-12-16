@@ -1,0 +1,26 @@
+:root {
+  --body_background: white;
+  --body_color: black;
+}
+[data-theme="dark"] {
+  --body_background: #19192b ;
+  --color-white-black: rgb(212, 212, 212);
+  --gray: #a8a8a8;
+  --link-hr_color: rgb(255, 255, 255);
+  --new-price_color: white;
+  --old-price_color: rgb(207, 207, 207);
+  --color_box-shadow: 4px 3px 20px #b3b3b38c;
+}
+[data-theme="light"] {
+  --body_background: white;
+  --color-white-black: #575757;
+  --link-hr_color: #4b4b4b;
+  --gray: #626262;
+  --new-price_colo: black;
+  --old-price_color: #626262;
+  --color_box-shadow: 4px 3px 20px #3535358c;
+}
+body {
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
