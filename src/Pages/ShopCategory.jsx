@@ -25,7 +25,7 @@ const ShopCategory = (props) => {
             data-bs-toggle="dropdown"
             aria-expanded="false"
           >
-          Dropdown link
+          types
           </a>
 
           <ul className="dropdown-menu">
