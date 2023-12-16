@@ -76,6 +76,11 @@
     height: 34px;
     font-size: 14px;
   }
+  .offers-right img{
+    width: 100px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
 }
 @media only screen and (max-width: 500px) {
   .offers {
@@ -95,7 +100,31 @@
     margin-top: 8px;
   }
   .offers-right img{
+    width: 100px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
+
+}
+@media only screen and (max-width: 400px) {
+  .offers {
+    width: 90%;
+    padding: 0 40px;
+  }
+  .offers-left h1 {
+    font-size: 14px;
+  }
+  .offers-left p {
+    font-size: 8px;
+  }
+  .offers-left button {
     width: 70px;
+    height: 30px;
+    font-size: 10px;
+    margin-top: 8px;
+  }
+  .offers-right img{
+    width: 80px;
     margin-bottom: 50px;
     margin-left: 10px;
   }
