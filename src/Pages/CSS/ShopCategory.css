@@ -102,7 +102,8 @@
     width: 12px;
   }
   .shopcategory-indexsort h6 {
-    font-size: 14px;
+    font-size: 12px;
+    margin-right: 5px;
   }
   .dropdown a{
     font-size: 13px;
